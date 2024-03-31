@@ -1,0 +1,125 @@
+.header ul li{
+                      margin: 25px;
+}
+.header ul li a:hover{
+                         color: tomato;
+                         cursor: pointer;
+}
+.header i {
+                  margin: 25px;
+}
+.home h1{
+               margin: 48px;
+               font-size: 48px;
+}
+.home p{
+                       margin-left: 50px;
+} 
+.pillow img {
+                  box-shadow: -15px -25px -15px purple;
+}
+.pillow p{
+               margin: 50px;
+}
+.pillow h3{
+             font-size: 48px;
+}
+.pillow1 h3{
+    font-size: 48px;  
+}
+.pillow2 h3{
+                  font-size: 48px;
+}
+.pilow3 h4{
+               color: grey;
+}
+.testimonial h4{
+                   font-size: 20px;
+}
+.credibily h2{
+             font-size: 48px;
+}
+.item img{
+             -border: 1px solid black;
+             margin: 25px;
+             gap: 10;
+}
+.form i{
+          color: grey;
+          margin: 50px;
+          font-size: 35px;
+          -border: 1px solid black;
+          -padding: 8px;
+
+}
+.form i:hover{
+                  color: brown;
+                  transition: 0.1s ease-in-out;  
+}
+.form span{
+                margin: 10px;
+}
+.form input{
+             padding: 8px;
+             border-radius: 10px;
+             background-color: azure;
+
+}
+.update input{
+                  width: 85%;
+                  margin-left: 100px;
+                  border-radius: 25px;
+                  padding: 10px;
+                  background-color: bisque;
+}
+.update input:hover{
+            color: turquoise;
+}
+.mart i {
+              margin: 15px;
+              font-size: 25px;
+              color: grey;
+              -border: 1px solid black;
+              padding: 8px;
+              border-radius: 100%;
+              background-color: aliceblue;
+              cursor: pointer;
+}
+.mart i:hover{
+                   background-color: yellowgreen;
+                   transition: 0.1 ease-in-out;
+}
+
+        
+            
+ 
+ .mart ul li a p:hover{
+                    color: chocolate;
+                    text-decoration: underline;
+                    transition: 0.1 ease-in-out
+ }
+@media  screen and (max-width:768px) {
+    .update input   {
+                              -margin-right: 150px;        
+                        } 
+                        .form input{
+                            margin-right: 150px; 
+                            display: flex;
+                            align-items: center;
+                        }
+                     .update h2{
+                                margin-left:140px;
+                     }
+                     .update p{
+                        margin-left:140px;
+                     }
+                     .form i{
+                             margin-left: 70px;
+                     }
+                     .form i{
+                              margin-left: 45px;
+                     }
+                     .mart i{
+                            margin-left: 40px;
+                     }
+}  
